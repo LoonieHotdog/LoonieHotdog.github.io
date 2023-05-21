@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome to My Website!</title>
+    <title>My Picture Showcase</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, world!</h1>
-    <p>This is my first GitHub website!</p>
+    <img src="your-copied-image-url" alt="Your Image Description">
 </body>
 </html>
